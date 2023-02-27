@@ -6,6 +6,7 @@ use serde::{Deserialize, Serialize};
 pub struct Student{
     #[serde(rename="_id")]
     pub id: ObjectId,
+    pub roll: String,
     pub name: String,
     pub email: String,
     pub course: String,

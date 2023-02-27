@@ -10,6 +10,7 @@ pub struct GenericResponse{
 #[derive(Serialize, Debug)]
 pub struct StudentResponse{
     pub id : String,
+    pub roll: String,
     pub name: String,
     pub email: String,
     pub course: String,
